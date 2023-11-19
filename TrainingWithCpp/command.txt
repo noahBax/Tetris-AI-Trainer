@@ -1,0 +1,2 @@
+For cli pop up	  -> g++ .\genetics.cpp .\ai_instance.cpp .\TetrisGame\piece.cpp .\TetrisGame\possibility.cpp .\TetrisGame\tetrisModule.cpp -o full.exe -O3
+For no cli pop up -> g++ .\genetics.cpp .\ai_instance.cpp .\TetrisGame\piece.cpp .\TetrisGame\possibility.cpp .\TetrisGame\tetrisModule.cpp -o fullNoCLI.exe -O3 -mwindows
