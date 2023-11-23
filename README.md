@@ -36,8 +36,8 @@ was very insightful and I found [this guy's report](https://codemyroad.wordpress
 to be very helpful as well.
 
 To summarize the content of both, the AI makes intelligent decisions by computing all possible scenarios that can be made by dropping
-a piece in every position/orientation from the top of the board. It then assigns a score to the resulting board based on certain
-metrics that you define. The higher a score is, the worse the scenario is viewed as, so the scenario with the lowest score
+a piece in every position/orientation from the top of the board. It then assigns a bad-ness rating to the resulting board based on certain
+metrics that you define. The higher a bad-ness rating is, the worse the scenario is viewed as, so the scenario with the lowest rating
 is chosen and the piece is dropped from that position. This doesn't allow fancy moves like T-spins of course, but the finished product
 does really well despite lacking those things.
 
@@ -52,7 +52,7 @@ in this scenario.
 For my AI, I chose to use 12 different metrics. Some of them are more important than others, but all in all they give my AI a pretty good
 understanding of how the Tetris board looks in each scenario. Each metric is multiplied by a "weight" which essentially decides how
 important that metric is when it comes to scoring the board. Multiply each weight by its associated metric and add them all together and that's
-how you get the score for a board. These weights are what makes one AI different from another AI in my project and
+how you get the rating for a board. These weights are what makes one AI different from another AI in my project and
 they are what get trained in the training process.
 
 As for training, I chose to use a genetic algorithm. I did some looking around on the internet and found that the general structure for
