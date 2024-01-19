@@ -10,7 +10,7 @@ It also contains a simple web page that can demonstrate the results of training.
 
 Check inside each folder for a more comprehensive overview of each component.
 
-[Check out a live demo of the product](https://frc.baxleys.org/Tetris/)
+[Check out a live demo of the product](https://noahbaxley.com/Tetris/)
 
 ## Backstory for this project
 Here's some context for why I built these things in the first place. This is a bit of a ramble.
@@ -81,7 +81,7 @@ population member by simulating 3 games and taking the average fitness value. I 
 that training didn't go on indefinitely.
 
 The first measure I chose to use as fitness was the number of lines cleared. So, the best AI would be one that maximizes lines cleared.
-You can check out how that turned out [here](https://frc.baxleys.org/Tetris/naiveTraining/) if you want. Notice how, yes, it does clear
+You can check out how that turned out [here](https://noahbaxley.com/Tetris/naiveTraining/index.html) if you want. Notice how, yes, it does clear
 a lot of lines and it can go on for a LONG time, but it doesn't really have any interest in clearing multiple lines at a time. So, if I
 want more lines cleared, a better value to use as fitness might be score. Or the ratio of score / lines. Or score x lines. These are the
 fascinating questions you get to think about and test when you do things like this.
