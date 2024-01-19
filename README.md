@@ -44,13 +44,13 @@ does really well despite lacking those things.
 An example metric that you would use to judge how bad a scenario is by looking at the number of holes you create by dropping a piece
 in a location. For example:
 
-<img src="https://frc.baxleys.org/gitImages/tetrisBad.png" style="width: 200px;" alt="Example of a bad move in Tetris. Notice how there are holes created by the piece dropped here"></img>
+<img src="https://noahbaxley.com/gitImages/tetrisBad.png" style="width: 200px;" alt="Example of a bad move in Tetris. Notice how there are holes created by the piece dropped here"></img>
 
-Dropping the red piece here creates holes underneath it that cannot be filled. Objectively speaking, it is one of the worst moves you could make
+Dropping the purple piece here creates holes underneath it that cannot be filled. Objectively speaking, it is one of the worst moves you could make
 in this scenario.
 
-For my AI, I chose to use 12 different metrics. Some of them are more important than others, but all in all they give my AI a pretty good
-understanding of how the Tetris board looks in each scenario. Each metric is multiplied by a "weight" which essentially decides how
+For my AI, I chose to use 13 different metrics. Some of them are more important than others, but all in all they give my AI a pretty good
+understanding of how the Tetris board looks in each scenario. Each metric is multiplied and/or exponentiated by a "weight" which essentially decides how
 important that metric is when it comes to scoring the board. Multiply each weight by its associated metric and add them all together and that's
 how you get the rating for a board. These weights are what makes one AI different from another AI in my project and
 they are what get trained in the training process.
