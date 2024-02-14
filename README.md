@@ -1,6 +1,10 @@
 # Tetris-AI-Trainer
 An implementation for training my Artificial Intelligence Tetris bot
 
+## This is an outdated version!
+You can find a newer version of this repository here: 
+[https://github.com/noahBax/Tetris-AI](https://github.com/noahBax/Tetris-AI)
+
 ## Contents
 This repository has scripts that are able designed to train the weights for a Tetris bot that I created that runs in the browser.
 There are two versions of the script.
